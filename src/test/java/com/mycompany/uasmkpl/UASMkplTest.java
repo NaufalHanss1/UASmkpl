@@ -18,7 +18,7 @@ public class UASMkplTest {
       @Test
     public void testAddition() {
         double num1 = 5.0;
-        double num2 = 1.0;
+        double num2 = 3    .0;
         double expectedResult = 8.0;
 
         double result = calculate(num1, '+', num2);
@@ -29,7 +29,7 @@ public class UASMkplTest {
     @Test
     public void testSubtraction() {
         double num1 = 10.0;
-        double num2 = 43.0;
+        double num2 = 4.0;
         double expectedResult = 6.0;
 
         double result = calculate(num1, '-', num2);
@@ -39,7 +39,7 @@ public class UASMkplTest {
 
     @Test
     public void testMultiplication() {
-        double num1 = 21.0;
+        double num1 = 2.0;
         double num2 = 6.0;
         double expectedResult = 12.0;
 
@@ -51,7 +51,7 @@ public class UASMkplTest {
     @Test
     public void testDivision() {
         double num1 = 15.0;
-        double num2 = 31.0;
+        double num2 = 3.0;
         double expectedResult = 5.0;
 
         double result = calculate(num1, '/', num2);
