@@ -18,7 +18,7 @@ public class UASMkplTest {
       @Test
     public void testAddition() {
         double num1 = 5.0;
-        double num2 = 0;
+        double num2 = 3.0;
         double expectedResult = 8.0;
 
         double result = calculate(num1, '+', num2);
