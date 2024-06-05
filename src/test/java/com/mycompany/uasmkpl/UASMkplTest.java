@@ -21,7 +21,7 @@ public class UASMkplTest {
         double num2 = 3.0;
         double expectedResult = 8.0;
 
-        double result = calculate(num1, '+', num2);
+        double result = calculate(num1, '+', null);
 
         assertEquals(expectedResult, result, 0.001);
     }
