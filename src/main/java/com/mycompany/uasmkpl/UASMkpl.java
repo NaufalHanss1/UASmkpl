@@ -15,8 +15,13 @@ public class UASMkpl {
 
         System.out.println("Selamat datang di Kalkulator Sederhana");
         System.out.println("Silakan masukkan dua angka:");
-
+        //ALAMAK
+        //A:AMAL
+        //udnidandad
+        //adasdasd
+        //sadasdadasd
         // Minta pengguna memasukkan dua angka
+        System.out.print("Angka pertama: ");
         System.out.print("Angka pertama: ");
         double angka1 = scanner.nextDouble();
 
